@@ -29,3 +29,7 @@ Route::get('/metas', function () {
 Route::get('/Colegio', function () {
     return view('Colegio');
 });
+
+Route::get('/Universidad', function () {
+    return view('Universidad');
+});
