@@ -29,3 +29,7 @@ Route::get('/metas', function () {
 Route::get('/Primer habilidad', function () {
     return view('Primer habilidad');
 });
+
+Route::get('/segunda habilidad', function () {
+    return view('segunda habilidad');
+});
