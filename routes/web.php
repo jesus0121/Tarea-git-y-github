@@ -33,3 +33,7 @@ Route::get('/Primer habilidad', function () {
 Route::get('/segunda habilidad', function () {
     return view('segunda habilidad');
 });
+
+Route::get('/Tercera habilidad', function () {
+    return view('Tercera habilidad');
+});
