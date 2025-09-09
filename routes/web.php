@@ -37,3 +37,16 @@ Route::get('/segunda expe', function () {
 Route::get('/Tercer expe', function () {
     return view('Tercer expe');
 });
+
+Route::get('/Primer habilidad', function () {
+    return view('Primer habilidad');
+});
+
+Route::get('/segunda habilidad', function () {
+    return view('segunda habilidad');
+});
+
+Route::get('/Tercera habilidad', function () {
+    return view('Tercera habilidad');
+});
+
