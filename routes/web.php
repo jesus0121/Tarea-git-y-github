@@ -33,3 +33,7 @@ Route::get('/Primer expe', function () {
 Route::get('/segunda expe', function () {
     return view('segunda expe');
 });
+
+Route::get('/Tercer expe', function () {
+    return view('Tercer expe');
+});
